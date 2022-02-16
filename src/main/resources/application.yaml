@@ -11,7 +11,9 @@ spring:
           default-label: Master
           uri:
             https://github.com/isaacfrwk/FrwkQuickWaitSpringConfigs
-
+          username: repo_owner_user_name
+          password: repo_owner_github_token
+          
 server:
   port: 8071
   
