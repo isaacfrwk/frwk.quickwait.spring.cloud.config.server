@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: spring-config-server
+  profiles:
+    active:
+    - git
+  cloud:
+    config:
+      server:
+        git:
+          default-label: Master
+          uri:
+            https://github.com/isaacfrwk/FrwkQuickWaitSpringConfigs
+
+server:
+  port: 8071
+  
+
+#Enable all Spring Boot Actuator endpoints.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
