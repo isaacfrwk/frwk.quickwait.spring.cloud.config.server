@@ -13,7 +13,7 @@
 	</parent>
 
 	<groupId>com.quickwait</groupId>
-	<artifactId>spring-config-server</artifactId>
+	<artifactId>spring-config-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<name>spring-config-server</name>

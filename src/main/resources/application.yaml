@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-config-server
+    name: spring-config-service
   profiles:
     active:
     - git
